@@ -2,6 +2,8 @@
 
 Personal skills directory for `npx skills`.
 
+[中文](README.zh-CN.md) | **English**
+
 ## Layout
 
 Skills will be added under `skills/<skill-name>/`.
