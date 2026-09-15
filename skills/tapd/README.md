@@ -39,10 +39,12 @@ npx skills add onevvay/fantasy-skill --skill tapd
 
 方案获认可或明确跳过后，按当前项目工作流流转到 `接受/处理`，核对状态并发布初步 HTML 评论，再实施最小修复和回归测试。
 
-如果创建 Git commit，提交标题必须包含 `get_bug` 返回的完整 19 位缺陷 ID，例如：
+如果创建 Git commit，必须明确标识这是 TAPD 缺陷修复：提交标题以 `fix(tapd):` 开头并包含 `get_bug` 返回的完整 19 位缺陷 ID，正文换行写入对应 TAPD 缺陷链接，例如：
 
 ```text
-fix: 修复库存扣减异常 [TAPD-1000123456789012345]
+fix(tapd): 修复库存扣减异常 [TAPD-<完整19位缺陷ID>]
+
+TAPD 缺陷：https://www.tapd.cn/<workspace_id>/bugtrace/bugs/view/<完整19位缺陷ID>
 ```
 
 ### 5. 真实验收
