@@ -6,4 +6,12 @@ Personal skills directory for `npx skills`.
 
 Skills will be added under `skills/<skill-name>/`.
 
-The `skills/tapd/` directory is currently only a placeholder. The actual TAPD skill is not published in this repository yet.
+Published skills:
+
+- `tapd` — TAPD requirements, tasks, bugs, iterations, timesheets, comments, and controlled bug-fix workflow.
+
+Install it with:
+
+```bash
+npx skills add onevvay/fantasy-skill --skill tapd
+```
